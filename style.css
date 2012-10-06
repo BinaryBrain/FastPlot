@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+}
+
+#function {
+  position: absolute;
+  z-index: 10;
+  top: 25px;
+  left: 25px;
+  
+}
+
+#frame {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#formula {
+  background: white;
+  padding: 4px;
+  font-family: monospace;
+}
+
+#input {
+  font-family: monospace;
+  border: none;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border: 2px solid #bbb;
+}
+
+#plotButton {
+  padding-bottom: 3px;
+  border: 2px solid #bbb;
+  background: white;
+  cursor: pointer;
+}
+
+#plotButton:hover {
+  background: #eee;
+}
+
+#plotButton:active {
+  background: #ccc;
+  border: 2px solid #ddd;
+}
+
+#credits {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
