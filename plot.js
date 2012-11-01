@@ -1,3 +1,32 @@
+// Math.x -> x
+var E = e =             2.718281828459045
+var LN2 = ln2 =         0.6931471805599453
+var LN10 = ln10 =       2.302585092994046
+var LOG2E = log2e =     1.4426950408889634
+var LOG10E = log10e =   0.4342944819032518
+var PI = pi =           3.141592653589793
+var SQRT1_2 = sqrt1_2 = 0.7071067811865476
+var SQRT2 = sqrt2 =     1.4142135623730951
+
+var abs =     Math.abs
+var acos =    Math.acos
+var asin =    Math.asin
+var atan =    Math.atan
+var atan2 =   Math.atan2
+var ceil =    Math.ceil
+var cos =     Math.cos
+var exp =     Math.exp
+var floor =   Math.floor
+var log =     Math.log
+var max =     Math.max
+var min =     Math.min
+var pow =     Math.pow
+var random =  Math.random
+var round =   Math.round
+var sin =     Math.sin
+var sqrt =    Math.sqrt
+var tan =     Math.tan
+
 $(function() {
 var defZoom = 10
 var zoom = defZoom
@@ -40,7 +69,7 @@ var offsetY = 0
   })
   
 
-  var functionToPlot = "Math.sin(x)*x/2"
+  var functionToPlot = "sin(x)*x/2"
 
   function f(x) {
       return eval(functionToPlot)
