@@ -194,7 +194,7 @@ var offsetY = 0
     c.strokeStyle = "blue"
     c.font = "12px monospace"
     
-    for(zero in zeros) {
+    /*for(zero in zeros) {
       var zero = zeros[zero]
       c.save()
       c.translate(zero, 0)
@@ -208,7 +208,7 @@ var offsetY = 0
       c.arc(zero, 0, 3, 0, Math.PI*2, true)
       c.fill()
       c.stroke()
-    }
+    }*/
     
     c.restore()
   }
